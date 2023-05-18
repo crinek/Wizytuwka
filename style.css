@@ -1,0 +1,95 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+body {
+  background-color: black;
+  background-image: url("https://raw.githubusercontent.com/zaprogramowaniFO/2023-04-20/main/projekt/background-photo.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.card {
+  display: flex;
+  background-color: white;
+  width: 630px;
+  border-radius: 15px;
+}
+
+.hero__image {
+  background-color: gray;
+  margin-right: 40px;
+  width: 219px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.hero__info {
+  margin-top: 30px;
+}
+
+.hero__description {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  width: 335px;
+  line-height: 22px;
+}
+
+.hero__name {
+  font-size: 36px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.hero__status {
+  color: #EE6400;
+  font-style: italic;
+  margin: 0;
+  font-size: 16px;
+}
+
+.hero__media {
+  margin-bottom: 30px;
+}
+
+.media__description {
+margin: 0;
+padding: 0;
+font-style: italic;
+color: #545454;
+}
+
+.media__links {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding-right: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: #EE6400;
+}
+
+.link:hover {
+  color: black;
+}
+
